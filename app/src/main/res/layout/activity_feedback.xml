@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".feedback">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="354dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="10dp"
+            android:text="      FACULTY NAME"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="      SUB NAME" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:text="   1) Adequate Preparedness for the class" />
+
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q11"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Excellent"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q12"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Very good"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q13"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Good"
+                android:textColor="@color/white" />
+
+
+            <RadioButton
+                android:id="@+id/q14"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Fair"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q15"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Poor"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   2) Presentation Style of the Subject"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q21"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Excellent"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q22"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Very good"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q23"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Good"
+                android:textColor="@color/white" />
+
+
+            <RadioButton
+                android:id="@+id/q24"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Fair"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q25"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Poor"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="   3) Clarity of Communication"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q31"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Excellent"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q32"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Very good"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q33"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Good"
+                android:textColor="@color/white" />
+
+
+            <RadioButton
+                android:id="@+id/q34"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Fair"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q35"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Poor"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="248dp"
+            android:layout_height="35dp"
+            android:text="   4) Interest and Enthusiasm in Delivery"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q41"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Excellent"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q42"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Very good"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q43"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Good"
+                android:textColor="@color/white" />
+
+
+            <RadioButton
+                android:id="@+id/q44"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Fair"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q45"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Poor"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   5)Regularity and Punctuality in taking class"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q51"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Excellent"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q52"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Very good"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q53"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Good"
+                android:textColor="@color/white" />
+
+
+            <RadioButton
+                android:id="@+id/q54"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Fair"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/q55"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:button="@drawable/checked"
+                android:text="Poor"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:layout_marginLeft="150dp" android:text="Submit" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
